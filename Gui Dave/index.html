@@ -8,25 +8,53 @@
 	<body>
 
 		<div class="classname" id="tab_bar">
-			<button class="pure-button pure-button-active" id="tab1"> Tab 1</button>
-			<button class="pure-button pure-button-active" id="tab2"> Tab 2</button>
-     		<button class="pure-button pure-button-active" id="tab3"> Tab 3</button>
+			<button class="pure-button pure-button-active" id="tabDialer"> Phone</button>
+			<button class="pure-button pure-button-active" id="tabAdd"> Add Contact</button>
+     		<button class="pure-button pure-button-active" id="tabList"> Contacts</button>
     	</div>
 
     		<div class="classname" id="content">
         	<div class="classname" id="content_dialer">
-        	Dialer
+        	Phone
+			<br/>
+			<button class="pure-button pure-button-active" id="dialer1"> 1</button>
+			<button class="pure-button pure-button-active" id="dialer2"> 2</button>
+			<button class="pure-button pure-button-active" id="dialer3"> 3</button>
+			<br/>
+			<button class="pure-button pure-button-active" id="dialer4"> 4</button>
+			<button class="pure-button pure-button-active" id="dialer5"> 5</button>
+			<button class="pure-button pure-button-active" id="dialer6"> 6</button>
+			<br/>
+			<button class="pure-button pure-button-active" id="dialer7"> 7</button>
+			<button class="pure-button pure-button-active" id="dialer8"> 8</button>
+			<button class="pure-button pure-button-active" id="dialer9"> 9</button>
+			<br/>
+			<button class="pure-button pure-button-active" id="dialer0"> 0</button>
         	</div>
 
 			<div class="classname" id="content_list">
         	Contact List
+			<br/>
+			<button class="pure-button pure-button-active" id="name1"> David Stone</button>
+			<br/>
+			<button class="pure-button pure-button-active" id="name2"> Jim Jones</button>
+			<br/>
+			<button class="pure-button pure-button-active" id="name3"> Steve Irwin</button>
+			<br/>
+			<button class="pure-button pure-button-active" id="name4"> Brad Pitt</button>
         	</div>
 
         	<div class="classname" id="content_add">
         	Add Contact
+			<form action="">
+  				First name: <input type="text" name="firstname"><br/>
+  				Last name: <input type="text" name="lastname"><br/>
+				Phone Number: <input type="text" name="num"><br/>
+  				<input type="submit" value="Submit">
+			</form>
         	</div>
     	</div>
-    	Your page content.
+    	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="phone.js"></script>
 	</body>

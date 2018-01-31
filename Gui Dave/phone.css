@@ -1,1 +1,40 @@
-#
+#dialer1 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer2 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer3 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer4 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer5 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer6 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer7 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer8 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer9 { width: 50px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer0 { width: 200px; height: 40px; background: blue; color: white; margin: 10px; }
+#dialer1:hover, #dialer1:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer2:hover, #dialer2:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer3:hover, #dialer3:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer4:hover, #dialer4:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer5:hover, #dialer5:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer6:hover, #dialer6:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer7:hover, #dialer7:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer8:hover, #dialer8:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer9:hover, #dialer9:focus{
+  background-color: #0074a9;
+  outline: none;}
+#dialer0:hover, #dialer0:focus{
+  background-color: #0074a9;
+  outline: none;}
